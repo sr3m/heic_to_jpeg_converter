@@ -41,5 +41,5 @@ photo_scrapper()
 
 # print(dir_list)
 
-print("Thanks for using sr3m's image extractor algorithm")
+print("Thanks for using sr3m's simple heic to jpeg conversion algorithm")
     
