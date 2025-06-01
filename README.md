@@ -1,4 +1,4 @@
-# heic\_to\_jpeg\_converter
+# HEIC to JPEG converter
 
 A lightweight Python script that scans its current folder for all `.heic` images, converts each one to `.jpeg` using Pillow (with HEIF support), and saves the results into a subfolder named `nueva_extension`. Simply place the `.py` file alongside your HEIC photos, open a Windows Command Prompt in that directory, and run the script.
 
