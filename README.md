@@ -106,7 +106,7 @@ Repository: [https://github.com/sr3m/heic\_to\_jpeg\_converter/tree/main](https:
 
    ```text
    Completed in 4.23 seg
-   Thanks for using sr3m's image extractor algorithm
+   Thanks for using sr3m's simple heic to jpeg conversion algorithm
    ```
 
 ---
