@@ -1,0 +1,9 @@
+# External dependencies
+Pillow
+pillow_heif
+
+# The following imports are part of Python’s standard library and do not need to be listed here:
+# os
+# pathlib
+# shutil
+# time
