@@ -23,7 +23,7 @@ Repository: [https://github.com/sr3m/heic\_to\_jpeg\_converter/tree/main](https:
 ## Features
 
 * **Bulk Conversion**: Automatically finds and converts all `.heic` files in the current directory.
-* **Windows‐Ready**: Uses Windows‐style paths by default and is designed to be run from a Command Prompt.
+* **Windows-Ready**: Uses Windows-style paths by default and is designed to be run from a Command Prompt.
 * **Minimal Dependencies**: Relies on Pillow and `pillow_heif` for HEIC decoding.
 * **Automatic Output Folder**: Creates a `nueva_extension` subfolder (if it doesn’t already exist) and places every converted `.jpeg` inside.
 * **Simple Setup**: Just drop the script in your HEIC folder, install dependencies, and run.
@@ -45,7 +45,7 @@ Repository: [https://github.com/sr3m/heic\_to\_jpeg\_converter/tree/main](https:
 
 1. **Clone or Download**
 
-   * Clone this repository or download the `bulk_heic_to_jpeg.py` file directly and place it in the folder containing your HEIC images.
+   * Clone this repository or download `bulk_heic_to_jpeg.py` directly and place it in the folder containing your HEIC images:
 
    ```bash
    git clone https://github.com/sr3m/heic_to_jpeg_converter.git
@@ -78,8 +78,7 @@ Repository: [https://github.com/sr3m/heic\_to\_jpeg\_converter/tree/main](https:
    Copy (or move) `bulk_heic_to_jpeg.py` into the same directory that contains your `.heic` photo files.
 
 2. **Open a Windows Command Prompt**
-
-   * Navigate (using `cd`) to the folder where both your HEIC images and the script live.
+   Navigate (using `cd`) to the folder where both your HEIC images and the script live:
 
    ```powershell
    cd C:\path\to\your\heic\folder
@@ -202,7 +201,7 @@ heic_to_jpeg_converter/
 
 * **No HEIC Files Converted**
 
-  * Double‐check that your HEIC files truly have the extension `.heic` (all lowercase). The script checks `extension_name.lower() == ".heic"`.
+  * Double-check that your HEIC files truly have the extension `.heic` (all lowercase). The script checks `extension_name.lower() == ".heic"`.
   * Confirm you ran the script from the same folder where the HEIC files reside:
 
     ```powershell
@@ -242,7 +241,3 @@ Feel free to add enhancements, suggest bug fixes, or expand platform support (e.
 ## License
 
 This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html). See the [LICENSE](LICENSE) file for details.
-
-```
-```
-
