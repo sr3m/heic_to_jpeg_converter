@@ -45,7 +45,7 @@ Repository: [https://github.com/sr3m/heic\_to\_jpeg\_converter/tree/main](https:
 
 1. **Clone or Download**
 
-   * Clone this repository or download `bulk_heic_to_jpeg.py` directly and place it in the folder containing your HEIC images:
+   * Clone this repository or download `heic_to_jpeg.py` directly and place it in the folder containing your HEIC images:
 
    ```bash
    git clone https://github.com/sr3m/heic_to_jpeg_converter.git
@@ -75,7 +75,7 @@ Repository: [https://github.com/sr3m/heic\_to\_jpeg\_converter/tree/main](https:
 ## Usage
 
 1. **Place the Script**
-   Copy (or move) `bulk_heic_to_jpeg.py` into the same directory that contains your `.heic` photo files.
+   Copy (or move) `heic_to_jpeg.py` into the same directory that contains your `.heic` photo files.
 
 2. **Open a Windows Command Prompt**
    Navigate (using `cd`) to the folder where both your HEIC images and the script live:
@@ -87,7 +87,7 @@ Repository: [https://github.com/sr3m/heic\_to\_jpeg\_converter/tree/main](https:
 3. **Run the Script**
 
    ```powershell
-   python bulk_heic_to_jpeg.py
+   python heic_to_jpeg.py
    ```
 
    * The script will:
@@ -164,7 +164,7 @@ Repository: [https://github.com/sr3m/heic\_to\_jpeg\_converter/tree/main](https:
 ```
 heic_to_jpeg_converter/
 │
-├─ bulk_heic_to_jpeg.py      # <-- Python script
+├─ heic_to_jpeg.py      # <-- Python script
 ├─ IMG_0001.heic
 ├─ IMG_0002.heic
 ├─ Holiday.heic
@@ -178,7 +178,7 @@ heic_to_jpeg_converter/
     └─ ...
 ```
 
-* **Root directory**: Contains `bulk_heic_to_jpeg.py` plus all your `.heic` images (and any other files).
+* **Root directory**: Contains `heic_to_jpeg.py` plus all your `.heic` images (and any other files).
 * **`nueva_extension/` subfolder**: Populated automatically with the converted `.jpeg` files.
 
 ---
@@ -206,7 +206,7 @@ heic_to_jpeg_converter/
 
     ```powershell
     cd C:\path\to\your\heic\folder
-    python bulk_heic_to_jpeg.py
+    python heic_to_jpeg.py
     ```
 
 * **Script Doesn’t Run at All**
@@ -219,7 +219,7 @@ heic_to_jpeg_converter/
   * If `python` isn’t found, make sure Python is in your PATH, or try `py` instead:
 
     ```powershell
-    py bulk_heic_to_jpeg.py
+    py heic_to_jpeg.py
     ```
 
 ---
